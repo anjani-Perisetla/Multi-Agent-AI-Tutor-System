@@ -11,6 +11,10 @@ templates = Jinja2Templates(directory="templates")
 
 tutor_agent = TutorAgent()
 
+@app.get("/")
+def read_root():
+    return {"message": "Welcome to AI Tutor"}
+
 @app.get("/", response_class=HTMLResponse)
 def get_home(request: Request):
     return templates.TemplateResponse("index.html", {"request": request})
