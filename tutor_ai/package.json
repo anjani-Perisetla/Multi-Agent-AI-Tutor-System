@@ -1,9 +1,0 @@
-{
-  "name": "tutor_ai",
-  "version": "1.0.0",
-  "main": "index.py",
-  "scripts": {
-    "dev": "index.py"
-  },
-  "license": "MIT"
-}
