@@ -3,7 +3,8 @@
 This project implements a cloud-deployed, AI-powered tutoring system using the Gemini API and FastAPI. It features a main Tutor Agent that routes queries to domain-specific agents: Math Agent and Physics Agent.
 
 ## 🌐 Live Demo
-- Deployed on: (https://railway.com/project/1fcfd5db-59f7-4509-94c1-6617ef226290/service/04c324fd-8b71-422a-9dab-e76dc4805f16?environmentId=938c3f78-a372-428b-8bab-2d9def76e78c)
+- Deployed on: https://vercel.com/anjanis-projects-08fece75/multi-agent-ai-tutor-system/k5WsowpFmTowxGcVrdUAMiWwsXuD
+Live: https://multi-agent-ai-tutor-system.vercel.app/
 
 ## 📁 Project Structure
 - `main.py`: FastAPI app
@@ -29,7 +30,7 @@ This project implements a cloud-deployed, AI-powered tutoring system using the G
 
 ## ✅ Submission Links
 - GitHub Repo: https://github.com/anjani-Perisetla/Multi-Agent-AI-Tutor-System
-- Live App: [https://your-app-url.railway.app](https://your-app-url.railway.app)
+- Live App: https://multi-agent-ai-tutor-system.vercel.app/
 
 ## 💡 Challenges
 - Managing subject classification accurately
