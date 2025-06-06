@@ -16,8 +16,7 @@ This project implements a cloud-deployed, AI-powered tutoring system using the G
 1. Clone repo: `git clone https://github.com/yourusername/tutor-ai`
 2. Install dependencies: `pip install -r requirements.txt`
 3. Add `.env` with your Gemini API key
-4. Run app locally: `uvicorn main:app --reload`
-5. Deploy to Railway
+5. Deploy to vercel
 
 ## 🔁 Agent Interaction
 - Tutor Agent classifies query using keywords
