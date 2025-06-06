@@ -7,10 +7,10 @@ import os
 app = FastAPI()
 
 # Mount static files (CSS, JS)
-app.mount("/static", StaticFiles(directory="api/static"), name="static")
+app.mount("/static", StaticFiles(directory="static"), name="static")
 
 # Set up templates
-templates = Jinja2Templates(directory="api/templates")
+templates = Jinja2Templates(directory="templates")
 
 @app.get("/", response_class=HTMLResponse)
 def get_home(request: Request):
